@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Playfair+Display|PT+Sans|PT+Sans+Narrow);
+
+header {
+    font-family: 'Book Antiqua', 'Libre Baskerville', 'Playfair Display', serif;
+    text-align: center;
+    color: #DBDBD9;
+    text-shadow: 2px 2px #40403F;
+}
+
+#bootstrap-overide img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 25px;
+}
+#bootstrap-overide a {
+    color: #BFBFBD;
+}
+#bootstrap-overide {
+    color: #DBDBD9;
+    font-family: 'Gill Sans', 'PT Sans', 'PT Sans Narrow', sans-serif;
+}
+#bootstrap-overide .bigicon {
+        font-size: 35px;
+        color: #ffffff;
+    }
+body {
+    background-image: url(img/ottawa1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+.avatar {
+    float: left;
+}
+.bg-image {
+    background-image: url(img/branches.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/*#bootstrap-overide li {
+    display: inline;
+    line-height: 2.6
+}*/
+
+@media all and (min-width:34rem) {
+    .navbar li {
+        display: inline;
+    }
+    .row:first-child {
+        align-content: center;
+        width: 100%
+    }
+}
