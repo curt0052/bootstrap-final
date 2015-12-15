@@ -27,6 +27,7 @@ body {
     background-image: url(img/ottawa1.jpg);
     background-position: center center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .avatar {
     float: left;
